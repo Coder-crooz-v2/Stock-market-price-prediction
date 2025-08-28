@@ -6,7 +6,7 @@ from keras.models import load_model
 def get_stock_list():
     stocks = [
         "AAPL", "MSFT", "AMZN", "GOOGL", "META", "TSLA", "NVDA", "PYPL", "NFLX", "INTC",
-        "AMD", "CSCO", "ADBE", "ORCL", "IBM", "UBER", "ZM", "SPOT", "SHOP", "SQ"
+        "AMD", "CSCO", "ADBE", "ORCL", "IBM", "UBER", "ZM", "SPOT", "SHOP"
     ]
     return stocks
 
